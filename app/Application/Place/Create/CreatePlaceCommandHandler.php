@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace App\Application\User\Create;
+namespace App\Application\Place\Create;
 
 use App\Application\Command;
 use App\Application\CommandHandler;
-use App\Domain\User\User;
-use App\Domain\User\Users;
+use App\Domain\Place\Place;
+use App\Domain\Place\Places;
 
 class CreatePlaceCommandHandler implements CommandHandler
 {
     public function __construct(
-        private readonly Users $users
+        private readonly Places $places
     ) {
     }
 
     /**
      *
      * @param Command $command
-     * @return User
+     * @return Place
      */
-    public function handle(Command $command, ?array $params = null): User
+    public function handle(Command $command, ?array $params = null): Place
     {
-        $user = User::create(null, ...$command->getProperties());
-        return $this->users->create($user);
+        $user = Place::create(null, ...$command->getProperties());
+        return $this->places->create($user);
     }
 }
