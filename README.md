@@ -19,7 +19,7 @@ O desenvolvimento deste projeto levou aproximadamente **06:00h** horas para ser 
 ## Boas Práticas Seguidas
 
 - **Clean Architecture**: Estrutura do projeto organizada para garantir separação de responsabilidades e facilitar a manutenção.
-- **Design Pattern de Actions**: Implementação de ações específicas para operações de CRUD.
+- **Command Pattern**: Implementação de ações específicas para operações de CRUD.
 - **Object Calisthenics**: Aplicação de boas práticas de desenvolvimento orientado a objetos.
 - **PSRs**: Conformidade com os padrões de codificação do PHP-FIG.
 - **Testes**: Incluímos testes unitários, de features e de arquitetura para garantir a qualidade do software.
