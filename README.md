@@ -44,7 +44,7 @@ Para subir o ambiente de desenvolvimento, siga os passos abaixo:
 
 ## Melhorias Futuras
 
-Além das funcionalidades implementadas, consideramos adicionar as seguintes melhorias ao projeto:
+Além das funcionalidades implementadas, considerei adicionar as seguintes melhorias ao projeto:
 
 - **Documentação Swagger**: Para gerar uma documentação interativa da API.
 - **Camada de Logs**: Implementar um sistema de logging, como o **Log Viewer**, para monitorar e analisar logs da aplicação.
